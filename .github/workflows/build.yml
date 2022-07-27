@@ -23,7 +23,7 @@ jobs:
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-        
+
       - name: Push latest cloud maps
         run: |
           git config --global user.name "Matt Eason"
@@ -37,7 +37,7 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "${{ steps.date.outputs.date }}"
           prerelease: false
           title: "${{ steps.date.outputs.date }}"
           files: |
