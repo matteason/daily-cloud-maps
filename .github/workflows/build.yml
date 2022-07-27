@@ -17,6 +17,7 @@ jobs:
 
       - name: Run script
         run: |
+          npm install
           node index.js
 
       - name: Get current date
