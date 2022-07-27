@@ -41,4 +41,4 @@ jobs:
           prerelease: false
           title: "${{ steps.date.outputs.date }}"
           files: |
-            out/*
+            latest/*
