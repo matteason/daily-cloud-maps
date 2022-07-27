@@ -12,7 +12,7 @@ console.log(`Generating cloud maps for ${DATE}`);
 const SOURCE_WIDTH = 512 //16384;
 const SOURCE_HEIGHT = SOURCE_WIDTH/2;
 
-const OUTPUT_DIR = './out';
+const OUTPUT_DIR = './latest';
 const TEMP_DIR = './tmp';
 
 const imagesToLoad = [
@@ -67,7 +67,7 @@ function loadImage(img) {
       if (!fs.existsSync(TEMP_DIR)){
         fs.mkdirSync(TEMP_DIR, { recursive: true });
       }
-      
+
       const path = `${TEMP_DIR}/${img.type}.png`;
       const filePath = fs.createWriteStream(path);
 

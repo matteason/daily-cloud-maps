@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-/out
 /tmp
 
 # local env files
