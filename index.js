@@ -9,7 +9,7 @@ const DATE = `${d.getFullYear()}-${(d.getMonth()+1).toString().padStart(2, '0')}
 
 console.log(`Generating cloud maps for ${DATE}`);
 
-const SOURCE_WIDTH = 512 //16384;
+const SOURCE_WIDTH = 16384;
 const SOURCE_HEIGHT = SOURCE_WIDTH/2;
 
 const OUTPUT_DIR = './latest';
