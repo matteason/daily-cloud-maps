@@ -3,7 +3,7 @@ name: Build
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '37 22 * * *'
+    - cron:  '00 23 * * *'
 
 jobs:
   build:
