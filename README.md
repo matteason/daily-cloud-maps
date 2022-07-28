@@ -182,6 +182,8 @@ the line below (which helpfully also serves as my acknowledgement to them):
 I acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of
 NASA's Earth Observing System Data and Information System (EOSDIS).
 
+Images are processed with the help of the excellent [JIMP](https://github.com/oliver-moran/jimp) image manipulation library.
+
 If you find this project useful, you can <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'>support me on Ko-Fi</a>:
 
 <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
@@ -200,4 +202,3 @@ You may be wondering why you can't just use the true colour image directly - and
 So we take the clear sky confidence and use it to mask the true colour image pixel-by-pixel by taking the confidence map pixel value, converting it to a confidence from 0.0 to 1.0 (how likely is it that the Earth is obscured by clouds?) and multiplying the pixel value of the true-colour image by that confidence. This means we retain the details from the true-colour image in the generated map. The result is then converted to greyscale to remove any residual colour from land or sea showing through the clouds.
 
 ![Mosaic of four images showing the same area of the western United States: the original true-colour image, the dark red to cream cloud confidence layer, a composite image of a static image of Earth combined with our cloud map, and our greyscale cloud map](https://user-images.githubusercontent.com/1935173/181499222-3ac4bd23-fe16-431a-9086-4b31ba244d7b.png)
-
