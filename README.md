@@ -110,7 +110,9 @@ You can download historic images from this project's [Releases](https://github.c
 
 The cloud map overlaid on NASA's
 [Earth at Night](https://earthobservatory.nasa.gov/features/NightLights)
-image. You can combine this with the day image using some fancy shader magic to create day/night transitions.
+image. You can combine this with the day image using some fancy shader magic to create day/night transitions:
+
+![A rendering of the eastern hemisphere, half in daylight and half in darkness, with city lights showing](https://user-images.githubusercontent.com/1935173/181506151-764c80c3-1069-4d62-b294-34d00d2ed319.png)
 
 <details>
   <summary>Earth with clouds (night) image URLs (all resolutions)</summary>
@@ -130,7 +132,10 @@ You can download historic images from this project's [Releases](https://github.c
 
 ![A flat map of Earth with clouds and the Earth's surface in black and the sea in white](https://github.com/matteason/daily-cloud-maps/releases/download/latest/1024x512-specular.jpg)
 
-You can use this specular map to make your model more realistic by only showing specular highlights on bodies of water.
+You can use this specular map to make your model more realistic by only showing specular highlights on bodies of water:
+
+![A specular highlight on the sea off the west coast of Africa](https://user-images.githubusercontent.com/1935173/181506465-9a97c504-dceb-4c91-9642-6bd904fb868f.png)
+
 
 <details>
   <summary>Specular image URLs (all resolutions)</summary>
