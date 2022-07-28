@@ -8,6 +8,10 @@
   },
   "author": "Matt Eason",
   "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteason/daily-cloud-maps.git"
+  },
   "dependencies": {
     "jimp": "^0.16.1"
   }

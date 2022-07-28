@@ -27,16 +27,6 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
-      - name: Push latest cloud maps
-        run: |
-          git config --global user.name "Matt Eason"
-          git config --global user.email "github@matteason.co.uk"
-        
-          git add . 
-          
-          git diff-index --quiet HEAD || commit -m "Add cloud maps for ${{ steps.date.outputs.date }}"
-          git push          
-
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -44,4 +34,13 @@ jobs:
           prerelease: false
           title: "${{ steps.date.outputs.date }}"
           files: |
-            latest/*
+            out/*
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Latest (${{ steps.date.outputs.date }})"
+          files: |
+            out/*

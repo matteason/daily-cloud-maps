@@ -12,7 +12,7 @@ console.log(`Generating cloud maps for ${DATE}`);
 const SOURCE_WIDTH = 16384;
 const SOURCE_HEIGHT = SOURCE_WIDTH/2;
 
-const OUTPUT_DIR = './latest';
+const OUTPUT_DIR = './out';
 const TEMP_DIR = './tmp';
 
 const imagesToLoad = [
