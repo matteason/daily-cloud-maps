@@ -7,7 +7,9 @@ This project creates and hosts daily cloud maps based on NASA data for use in 3D
 
 `https://github.com/matteason/daily-cloud-maps/releases/download/latest/8192x4096-clouds.jpg`
 
-If you find this project useful, you can <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'>support me on Ko-Fi</a>:
+If you have any feedback you can [raise an issue](https://github.com/matteason/daily-cloud-maps/issues/new), [start a discussion](https://github.com/matteason/daily-cloud-maps/discussions/new) or tweet me ([@MattEason](https://twitter.com/matteason))
+
+If you find this project useful and you're feeling spendy, you can <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'>support me on Ko-Fi</a>:
 
 <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
