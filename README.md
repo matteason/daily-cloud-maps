@@ -1,4 +1,5 @@
-# Daily cloud maps
+# Daily cloud maps 
+<img alt="" src="https://img.shields.io/github/v/release/matteason/daily-cloud-maps?label=Latest%20map%20date">
 This project creates and hosts daily cloud maps based on NASA data for use in 3D modelling software like Blender or Xplanet, or in 2D graphics.
 
 If you find this project useful, you can support me on Ko-Fi:
