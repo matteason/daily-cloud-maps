@@ -38,7 +38,7 @@ get cross with how much space they take up, so keep your own copy of anything im
 If that might affect you, please watch this repo's Issues and I'll let you know if that happens.
 
 ## Available images
-The following images are created daily. All images are available in four resolutions; replace `[W]x[H]` in the filenames below.
+The following images are created daily. All images are available in four resolutions; replace `[W]x[H]` in the filenames below with one of `8192x4096`, `4096x2048`, `2048x1024` or `1024x512`
 
 The images shown are the latest images generated and refresh every day.
 
