@@ -37,6 +37,8 @@ there's an issue with the satellites. I may also need to eventually delete histo
 get cross with how much space they take up, so keep your own copy of anything important.
 If that might affect you, please watch this repo's Issues and I'll let you know if that happens.
 
+Unfortunately, because GitHub doesn't allow [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) on release assets you won't be able to use the images directly in JavaScript. You can either run a server-side process to download the image and serve it to your JavaScript, or find a CORS proxy that will do that and add the `Access-Control-Allow-Origin: *` header for you.
+
 ## Available images
 The following images are created daily. All images are available in four resolutions; replace `[W]x[H]` in the filenames below with one of `8192x4096`, `4096x2048`, `2048x1024` or `1024x512`
 
