@@ -44,8 +44,3 @@ jobs:
           title: "Latest (${{ steps.date.outputs.date }})"
           files: |
             out/*
-
-      - name: Push latest images to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: out
