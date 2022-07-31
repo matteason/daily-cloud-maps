@@ -40,6 +40,8 @@ If that might affect you, please watch this repo's Issues and I'll let you know 
 Unfortunately, because GitHub doesn't allow [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) on release assets you won't be able to use the images directly in JavaScript. You can either run a server-side process to download the image and serve it to your JavaScript, or find a CORS proxy that will do that and add the `Access-Control-Allow-Origin: *` header for you.
 
 ## Available images
+<img alt="" src="https://img.shields.io/github/v/release/matteason/daily-cloud-maps?label=Latest%20map%20date">
+
 The following images are created daily. All images are available in four resolutions; replace `[W]x[H]` in the filenames below with one of `8192x4096`, `4096x2048`, `2048x1024` or `1024x512`
 
 The images shown are the latest images generated and refresh every day.
