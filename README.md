@@ -168,6 +168,9 @@ the ice cap which makes the clouds even less visible.
 Occasionally, the satellites capturing the source data will miss some regions. These areas will appear as square-ish
 holes without clouds.
 
+![Crop of a greyscale cloud map with large black squares in areas where cloud data is missing](https://user-images.githubusercontent.com/1935173/182649721-f5e3b26c-22a7-4ed8-b7a5-b65cf583fdd8.png)
+
+
 ### Discontinuities
 Because the satellites orbit the Earth, different regions are captured at different times. Sometimes when adjoining
 regions are captured at different times, an edge is visible due to the clouds moving between captures.
