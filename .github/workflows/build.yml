@@ -62,7 +62,7 @@ jobs:
             
       - name: Copy readme to Pages
         id: copy-readme
-        run: cp ./README.md ./out            
+        run: cp ./README.md ./out/index.md
             
       - name: Setup Pages
         uses: actions/configure-pages@v1
