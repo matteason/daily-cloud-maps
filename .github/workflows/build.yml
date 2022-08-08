@@ -60,6 +60,10 @@ jobs:
           files: |
             out/*
             
+      - name: Copy readme to Pages
+        id: copy-readme
+        run: cp ./README.md ./out            
+            
       - name: Setup Pages
         uses: actions/configure-pages@v1
         
