@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron:  '0 15 * * *'
+    
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  pages: write
+  id-token: write    
 
 # Allow one concurrent deployment
 concurrency:
