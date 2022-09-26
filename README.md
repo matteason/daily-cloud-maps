@@ -39,7 +39,7 @@ If that might affect you, please watch this repo's Issues and I'll let you know 
 
 GitHub allows [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) on Pages, so you can use the latest daily images directly in JavaScript - for example, in a [three.js TextureLoader](https://threejs.org/docs/#api/en/loaders/TextureLoader).
 
-Unfortunately, because GitHub doesn't allow  on release assets you won't be able to use the historic images directly in JavaScript. You can either run a server-side process to download the image and serve it to your JavaScript, or find a CORS proxy that will do that and add the `Access-Control-Allow-Origin: *` header for you.
+Unfortunately, because GitHub doesn't allow CORS on release assets you won't be able to use the historic images directly in JavaScript. You can either run a server-side process to download the image and serve it to your JavaScript, or find a CORS proxy that will do that and add the `Access-Control-Allow-Origin: *` header for you.
 
 ## Available images
 <img alt="" src="https://img.shields.io/github/v/release/matteason/daily-cloud-maps?label=Latest%20map%20date">
