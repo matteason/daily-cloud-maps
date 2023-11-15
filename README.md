@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This project is being replaced by [Live Cloud Maps](https://github.com/matteason/live-cloud-maps) and will stop being updated soon. Please update any image URLs you're using to point to the new project.
+
 # Daily cloud maps 🌍
 <img alt="" src="https://img.shields.io/github/v/release/matteason/daily-cloud-maps?label=Latest%20map%20date">
 
